@@ -1,2 +1,2 @@
-# Pensamiento_Algor-tmico
+# Pensamiento_Algoritmico
 Talleres de P.A.
