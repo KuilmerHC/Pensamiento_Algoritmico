@@ -1,14 +1,13 @@
 # Documentation
 
-## Introduction
+# Introduction
 
-> 
-> 
+The purpose of this project is to implement code in both C++ and Python to calculate the magnitudes associated with the cosmic energy laws discovered on Nexus Prime. This work demonstrates a dual code solution that computes one of three key parameter Crystal Potential, Energy Flux, or Cosmic Resistance, by employing a unique condition based on the unkwon value, the user simply inputs -1, and the program uses the fundamental Zyx-9 equation to calculate the missing magnitude.
 
 ---
 
-## Installation
-- MacOs
+## Python Installation (MacOS, Windows, Linux)
+- ## MacOs
     
     **How to Install Python on macOS Using VS Code**
     
@@ -31,7 +30,7 @@
             
         2. Install from the official website 
             
-            ![image.png](attachment:d39435bb-c487-45b3-a931-98a602ad802b:image.png)
+            ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image1.png?raw=true)
             
     - **Step 2:** Install VSC.
         1. You need to search VSC in google and click on “download for Mac”
@@ -53,42 +52,42 @@
     
     ✅ That’s all, you have Python in your MacOS.
     
-- Windows
+- ## Windows
     
     🐍 **Install Python in Windows Using VS Code**
     
     - **Step 1:**  Go to microsoft store and search “Python” or dowload it from the official website.
     
-    ![image.png](attachment:4bf321b1-7baf-48bc-a298-99b7204fca42:image.png)
+    ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image6.png?raw=true)
     
     - Step 2: Search VSC in google and click “download for windows”
     
-    ![image.png](attachment:9ac81288-5c35-4f26-aa51-7215df31003c:image.png)
+    ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image7.png?raw=true)
     
-    1. After that you are going to go to your files and choose download and click on it.
+    1. After that, go to your files and choose download and click on it.
         
-        ![image.png](attachment:894fac15-41b1-4fa9-bf17-7001e9787de5:image.png)
+        ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image8.png?raw=true)
         
     2. Next to do that, you have to run it and the app will open, when the app will be opening, it  show the main panel. (like this)
         
-        ![ZHzst.png](attachment:cb3af859-b99e-4a52-b710-251410c3ac4d:d35cc1bf-d6d4-4982-91a2-cc7095be8582.png)
+        ![ZHzst.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/ZHzst4.png?raw=true)
         
-    3. When you enter to VSC you are gonna go to “extensions” and you find Python
+    3. When you enter to VSC, go to “extensions” and find Python
         
-        ![image.png](attachment:9646c650-2968-4e64-84e3-619aa1fd21ae:image.png)
+        ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image5.png?raw=true)
         
-    4. Finally, you gotta install the Microsoft vertion due to that is certiified.
+    4. Finally, install the Microsoft vertion due to that is certiified.
         
-        ![image.png](attachment:5edc202a-e2f5-457d-9673-8e2d529f9436:image.png)
+        ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image9.png?raw=true)
         
     
-     If you wanna use python in VSC, it’s necesary to put “.py” at the end.
+     If you use python in VSC, is necesary to put “.py” at the end.
     
     ✅ Great, you already have python in Windows.
     
-- Linux
+- ## Linux
     
-    🐍 **How to Install Python on Linux from Scratch Using** 
+    🐍 **How to Install Python on Linux** 
     
     Most Linux distributions come with **Python preinstalled**. However, if you need a newer version or it's missing, follow these steps based on your distribution.
     
@@ -136,7 +135,7 @@
         ```
         
     
-    to check if this install you need to put this in your terminal:
+    Check if this install you need to put this in your terminal:
     
     ```python
     pip3 install virtualenv
@@ -146,7 +145,177 @@
 
 ---
 
-## User guide
+## C++ Installation (MacOS, Windows, Linux)
+
+- ## MacOs
+    - **Step 1**:  Check if you have a C++ compiler
+    
+    Open your terminal and you will put this: 
+    
+    ```cpp
+    clang --version
+    ```
+    
+    - **Step 2:** If you do not have a C++ compiler, you will see how you can install that.
+        1. Option 1: You can install Xcode Comand Line Tools, in your terminal you will put:
+            
+            ```cpp
+            xcode-select --install
+            ```
+            
+        
+        A pop-up window will appear. Click **"Install"** and wait for the installation to finish and you can verify the installation with this command.
+        
+        ```cpp
+        clang --version
+        ```
+        
+        1. Option 2: you can install GCC using Homebrew. 
+        
+        if you do not have homebrew, you can install it like this:
+        
+        ```cpp
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+        
+        ```
+        
+        You will install GCC using Homebrew, the command is: 
+        
+        ```cpp
+        brew install gcc
+        ```
+        
+        If you have questions, you can corroborate with this command in your terminal: 
+        
+        ```cpp
+        g++ --version
+        ```
+        
+    - **Step 3:** Finally, if you want to use VSC, it is so easy, you have VSC only you have to install the Extnsion  C/C++ by microsoft and create a file but you have to write “cpp” at the end.
+ 
+    
+- ## Windows
+    - **Step 1**: You need to install a C++ compiler.
+        1. Option 1: Install MinGW-w64, this is recommended for beginners, you can install from the official website, select and download the vertion more recommended.
+            
+            ![image.png](attachment:7b24953c-b88f-403a-99f3-98777d90efcc:image.png)
+            
+            - Open **File Explorer**, right-click on **This PC** → **Properties**.
+            - Go to **Advanced system settings** → **Environment Variables**.
+            - Under **System Variables**, select `Path` and click **Edit**.
+            - Click **New** and add the path where you installed MinGW, for example:
+                
+                ```cpp
+                C:\mingw-w64\bin
+                ```
+                
+            
+            Finally you need to verify the installation, when you open your terminal you enter this command: 
+            
+            ```cpp
+            g++ --version
+            ```
+            
+            if you see a GCC version, the compiler was correctly install.
+            
+    - **Step 2:** If you do not have VSC you can install whit this process:
+        1. You need to search VSC in google and click on “download for windos”
+        
+        ![image.png](attachment:9ac81288-5c35-4f26-aa51-7215df31003c:image.png)
+        
+        d. After that you are going to go to your files and choose download and click on it.
+        
+        ![image.png](attachment:894fac15-41b1-4fa9-bf17-7001e9787de5:image.png)
+        
+        c. Next to do that, we run it and the app will open, when the app will be opening, it  show the main panel. (like this)
+        
+        ![ZHzst.png](attachment:cb3af859-b99e-4a52-b710-251410c3ac4d:d35cc1bf-d6d4-4982-91a2-cc7095be8582.png)
+        
+    - **Step 3:** you have to go to extensions, search C/C++and install by microsoft.
+        
+        ![image.png](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
+        
+    - **Step 4: C**onfigure C++ in VS Code. To do that you need to open VS Code and press `Ctrl + ~` to open the integrated terminal. Select the compiler pressing `Ctrl + Shift + P` to open the command:
+        
+        ```cpp
+        C/C++: Edit Configurations (UI)}
+        ```
+        
+        ✅ **Done!** You can now write and compile **C++ programs in Windows** using **VS Code**. 🚀
+        
+- ## Linux
+    - **Step 1:** Check if you have C++ compiler. For that, you got to open your terminal and put this code:
+        
+        ```cpp
+        g++ --version
+        ```
+        
+        if you have information about g++, you have a c++ compiler, but you dont have g++ information, you have to install a c++ compiler. 
+        
+    - **Step 2:** You can install in diferents operational systems for each one has diferent commands.  Run this commands in your terminal.
+        
+        a. Ubuntu: 
+        
+        ```cpp
+        sudo apt update && sudo apt install g++ -y
+        ```
+        
+        b. Fedora: 
+        
+        ```cpp
+        sudo dnf install gcc-c++
+        ```
+        
+        c. Arch Linux:
+        
+        ```cpp
+        sudo pacman -s gcc 
+        ```
+        
+        d. OpenSUSE:
+        
+        ```cpp
+        sudo zypper install gcc-c++
+        ```
+        
+        Verify if it is install and it running.
+        
+        ```cpp
+        g++ --version
+        ```
+        
+    - **Step 3: Install VS code to run** **C++**
+        1. Ubuntu / Debian
+            
+            ```cpp
+            sudo apt install code
+            ```
+            
+        2. Fedora
+            
+            ```cpp
+            sudo dnf install code
+            ```
+            
+        3. Arch Linux
+            
+            ```cpp
+            
+            sudo pacman -S code
+            ```
+            
+        
+        Finally you have to install the extension.
+        
+        ![image.png](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
+        
+        ✅ **Done!** You can now write and compile **C++ programs on Linux** easily. 🚀
+
+
+
+---
+
+# User guide
 
 ### **Case 1:** Calculate Crystal Potential (*V*)
 
@@ -215,7 +384,7 @@ Cosmic Resistance: 5.00Ω
 
 ---
 
-## Technical Documentation
+# Technical Documentation
 
 
 ### **Code Structure**
@@ -251,7 +420,7 @@ Cosmic Resistance: 5.00Ω
 ---
 
 
-## Code Examples
+# Code Examples
 
 - The “#include < iomanip > ” is used for the precision of the numbers, the problem give the instructions that the results must have two decimals so for this reason we include it in the code. Example:
 
@@ -395,7 +564,7 @@ int main() {
 
 ---
 
-## Common Errors
+# Common Errors
 
 - One common error occurs when the user enters a string instead of a numeric value. To handle this, we use a loop that continuously prompts the user for input until a valid numeric value is entered. This is achieved using a `while` loop combined with conditional checks.
 - Another issue arises with the value 0 in certain calculations. In crystal potential $V = I * R$ if either I or R is 0, the result is simply 0. However, in the case of energy flux $I = V / R$, and cosmic resistance $R = V / I$, division by zero is undefined in mathematics. In physics, this situation has different implications: for energy flux, it represents an open circuit, while for cosmic resistance, it indicates a problem with the resistance value.
