@@ -8,9 +8,141 @@
 ---
 
 ## Installation
-
-> 
-> 
+- MacOs
+    
+    **How to Install Python on macOS Using VS Code**
+    
+    ---
+    
+     You can use a lot of methods to install Python. In this case with VS Code.
+    
+    - **Step 1:** In this part you have two options to install python:
+        1. Install Python using homebrew, remember it is optional. the command is: 
+            
+            ```python
+            brew install python
+            ```
+            
+            check if python is installed whit this:
+            
+            ```python
+            python3 --version
+            ```
+            
+        2. Install from the official website 
+            
+            ![image.png](attachment:d39435bb-c487-45b3-a931-98a602ad802b:image.png)
+            
+    - **Step 2:** Install VSC.
+        1. You need to search VSC in google and click on “download for Mac”
+        
+        ![image.png](attachment:d917bbb6-b250-4de6-91da-990e60b24f0f:image.png)
+        
+        1. After that you are going to go to your files and choose download and click on it.
+            
+            ![image.png](attachment:894fac15-41b1-4fa9-bf17-7001e9787de5:image.png)
+            
+        2. Next to do that, you need to run it and the app will open, when the app will be opening, it  show the main panel. (like this)
+            
+            ![ZHzst.png](attachment:cb3af859-b99e-4a52-b710-251410c3ac4d:d35cc1bf-d6d4-4982-91a2-cc7095be8582.png)
+            
+    - **Step 4:** After to open VSC you are going to go to “extensions”, you search Python by microsoft and you clikc on it.
+        
+        ![image.png](attachment:9646c650-2968-4e64-84e3-619aa1fd21ae:image.png)
+        
+    
+    ✅ That’s all, you have Python in your MacOS.
+    
+- Windows
+    
+    🐍 **Install Python in Windows Using VS Code**
+    
+    - **Step 1:**  Go to microsoft store and search “Python” or dowload it from the official website.
+    
+    ![image.png](attachment:4bf321b1-7baf-48bc-a298-99b7204fca42:image.png)
+    
+    - Step 2: Search VSC in google and click “download for windows”
+    
+    ![image.png](attachment:9ac81288-5c35-4f26-aa51-7215df31003c:image.png)
+    
+    1. After that you are going to go to your files and choose download and click on it.
+        
+        ![image.png](attachment:894fac15-41b1-4fa9-bf17-7001e9787de5:image.png)
+        
+    2. Next to do that, you have to run it and the app will open, when the app will be opening, it  show the main panel. (like this)
+        
+        ![ZHzst.png](attachment:cb3af859-b99e-4a52-b710-251410c3ac4d:d35cc1bf-d6d4-4982-91a2-cc7095be8582.png)
+        
+    3. When you enter to VSC you are gonna go to “extensions” and you find Python
+        
+        ![image.png](attachment:9646c650-2968-4e64-84e3-619aa1fd21ae:image.png)
+        
+    4. Finally, you gotta install the Microsoft vertion due to that is certiified.
+        
+        ![image.png](attachment:5edc202a-e2f5-457d-9673-8e2d529f9436:image.png)
+        
+    
+     If you wanna use python in VSC, it’s necesary to put “.py” at the end.
+    
+    ✅ Great, you already have python in Windows.
+    
+- Linux
+    
+    🐍 **How to Install Python on Linux from Scratch Using** 
+    
+    Most Linux distributions come with **Python preinstalled**. However, if you need a newer version or it's missing, follow these steps based on your distribution.
+    
+    - Step 1: open the terminal you can open with (ctrl+alt+t )
+    
+    ```python
+    python3 --version
+    ```
+    
+    If you see something like `Python 3.x.x`, Python is already installed. If not, proceed to the next step.
+    
+    - Step 2:  you can install Python on Debian, Ubuntu, and Derivatives (Linux Mint, Pop!_OS, etc.)
+    
+    for that action that is downdoald python on Linux you need to put this in your terminal.
+    
+    1. This is for update package lists 
+    
+    ```python
+    sudo apt update && sudo apt upgrade -y
+    ```
+    
+    1. This is for installing python: 
+        
+        ```python
+        sudo apt install python3 -y
+        ```
+        
+    2. In this step you will install the Python packege manager.
+        
+        ```python
+        sudo apt install python3-pip -y
+        ```
+        
+    3. And finally you need to verify that it has been installed correctly.
+        
+        ```python
+        python3 --version
+        ```
+        
+    - Step 3: If you have more than one vertion of python and you want “python” to be the same as “python3” you will do that:
+        
+        ```python
+        sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+        
+        ```
+        
+    
+    to check if this install you need to put this in your terminal:
+    
+    ```python
+    pip3 install virtualenv
+    ```
+    
+    ✅ Great, you already have python in Linux, you can now program. 
 
 ---
 
