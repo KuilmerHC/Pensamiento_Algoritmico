@@ -573,4 +573,78 @@ int main() {
 
 ---
 
-## Contributions
+# Contributions
+Welcome! We are excited that you are interested in contributing to our project. Whether you are a developer, designer, writer, or just someone who wants to help out, your contributions are valuable. This guide will walk you through the process of getting started.
+
+## How to Contribute
+
+### 1. **Find Something to Work On**
+
+- If you have an idea for a new feature or improvement, feel free to open a new file.
+
+---
+
+### 2. **Set Up the Project**
+
+1. **Fork the Repository**: Click the "Fork" button on the top right of the repository page to create your own copy.
+2. **Clone Your Fork**:
+    
+    ```
+    git clone https://github.com/KuilmerHC/Pensamiento_Algoritmico.git
+    ```
+    
+3. **Create a Branch**:
+    
+    ```
+    git checkout -b my-feature-branch
+    ```
+    
+
+---
+
+### 3. **Make Your Changes**
+
+- Write clean, well-documented code or content.
+- Follow the project’s coding style and guidelines (python PEP 8 style and for C++ is C++ Google style guide) .
+- Test your changes to ensure they work as expected.
+
+---
+
+### 4. **Submit Your Contribution**
+
+1. **Commit Your Changes**:
+    
+    ```
+    git add .
+    git commit -m "Describe your changes briefly"
+    ```
+    
+2. **Push to Your Fork**:
+    
+    ```
+    git push origin my-feature-branch
+    ```
+    
+3. **Open a Pull Request (PR)**:
+    - Go to the original repository and click "New Pull Request."
+    - Write a clear title and description explaining what your PR does and why it’s helpful.
+    - Reference any related issues (e.g., "Fixes #123").
+
+---
+
+### 5. **Review and Feedback**
+
+- Maintainers and other contributors will review your PR and may suggest changes.
+- Be open to feedback and make any necessary updates.
+- Once approved, your changes will be merged into the project. Thank you!
+
+## Questions?
+
+If you have any questions or need help, feel free to:
+
+- Open an issue.
+- Reach out to us on [**juanjosbe@gmail.com**, **kuilmerhc@gmail.com,** david.hernandez01@usa.edu.co].
+
+---
+
+We appreciate your time and effort making our project better. Happy contributing! 🎉
