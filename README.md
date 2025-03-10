@@ -6,7 +6,7 @@ The purpose of this project is to implement code in both C++ and Python to calcu
 
 ---
 
-## Python Installation (MacOS, Windows, Linux)
+# Python Installation (MacOS, Windows, Linux)
 - ## MacOs
     
     **How to Install Python on macOS Using VS Code**
@@ -33,21 +33,21 @@ The purpose of this project is to implement code in both C++ and Python to calcu
             ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image1.png?raw=true)
             
     - **Step 2:** Install VSC.
-        1. You need to search VSC in google and click on “download for Mac”
+        1. Search VSC in google and click on “download for Mac”
         
         ![image.png](attachment:d917bbb6-b250-4de6-91da-990e60b24f0f:image.png)
         
-        1. After that you are going to go to your files and choose download and click on it.
+        1. After that, go to files and choose download and click on it.
             
-            ![image.png](attachment:894fac15-41b1-4fa9-bf17-7001e9787de5:image.png)
+            ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image12.png?raw=true)
             
-        2. Next to do that, you need to run it and the app will open, when the app will be opening, it  show the main panel. (like this)
+        2. Next to do that, run it and the app will open, when the app will be opening, it  show the main panel. (like this)
             
-            ![ZHzst.png](attachment:cb3af859-b99e-4a52-b710-251410c3ac4d:d35cc1bf-d6d4-4982-91a2-cc7095be8582.png)
+            ![ZHzst.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image13.png?raw=true)
             
     - **Step 4:** After to open VSC you are going to go to “extensions”, you search Python by microsoft and you clikc on it.
         
-        ![image.png](attachment:9646c650-2968-4e64-84e3-619aa1fd21ae:image.png)
+        ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image5.png?raw=true)
         
     
     ✅ That’s all, you have Python in your MacOS.
@@ -145,7 +145,7 @@ The purpose of this project is to implement code in both C++ and Python to calcu
 
 ---
 
-## C++ Installation (MacOS, Windows, Linux)
+# C++ Installation (MacOS, Windows, Linux)
 
 - ## MacOs
     - **Step 1**:  Check if you have a C++ compiler
@@ -307,7 +307,7 @@ The purpose of this project is to implement code in both C++ and Python to calcu
         
         Finally you have to install the extension.
         
-        ![image.png](attachment:04ede5f2-faa4-4b55-80fa-013406e11d99:image.png)
+        ![image.png](https://github.com/KuilmerHC/Pensamiento_Algoritmico/blob/main/Images/image11.png?raw=true)
         
         ✅ **Done!** You can now write and compile **C++ programs on Linux** easily. 🚀
 
